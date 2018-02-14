@@ -5,15 +5,15 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Melee extends Weapons
+public abstract class Melee extends Weapons implements WeaponInterface
 {
     int dmg;
     int crit;
+    String name;
     
-    public Melee (int dmg, int crit){
-        this.dmg = dmg;
-        this.crit = crit;
+    public Melee (int dmg, int crit, String name){
+        super(dmg,crit);
+        this.name = name;
     }   
-    
     
 }

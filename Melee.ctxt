@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Melee
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Melee\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=dmg\ crit
-comment1.target=Melee(int,\ int)
+comment1.params=dmg\ crit\ name
+comment1.target=Melee(int,\ int,\ java.lang.String)
 numComments=2
