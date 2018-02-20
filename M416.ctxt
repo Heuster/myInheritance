@@ -1,9 +1,9 @@
 #BlueJ class context
-comment0.target=M4A1
+comment0.target=M416
 comment1.params=dmg\ rnge\ ammo\ crit\ magSize\ ammoType\ name\ accuracy
-comment1.target=M4A1(int,\ int,\ int,\ int,\ int,\ double,\ java.lang.String,\ int)
+comment1.target=M416(int,\ int,\ int,\ int,\ int,\ double,\ java.lang.String,\ int)
 comment2.params=
-comment2.target=M4A1()
+comment2.target=M416()
 comment3.params=
 comment3.target=int\ attack()
 comment4.params=

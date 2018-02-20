@@ -1,18 +1,19 @@
 
 /**
- * Write a description of class M4A1 here.
+ * Write a description of class ACR here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
 import java.lang.Math;
-public class M4A1 extends Gun 
+public class SCAR_H extends Gun
+
 {
-    public M4A1 (int dmg, int rnge, int ammo,int crit, int magSize, double ammoType, String name, int accuracy){
+    public SCAR_H (int dmg, int rnge, int ammo,int crit, int magSize, double ammoType, String name, int accuracy){
       super(dmg, crit, rnge, ammo, magSize, ammoType, name, accuracy);
     }
-    public M4A1(){
-     super(30, 90, 20, 30, 50, 5.56, "M4A1", 75);   
+    public SCAR_H(){
+     super(35, 90, 30, 30, 50, 5.56, "M4A1", 75);   
     }
     
     public int attack(){

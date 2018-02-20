@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AK12
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AK12\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=dmg\ rnge\ ammo\ crit\ magSize\ ammoType\ name\ accuracy
+comment1.target=AK12(int,\ int,\ int,\ int,\ int,\ double,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=AK12()
+comment3.params=
+comment3.target=int\ attack()
+comment4.params=
+comment4.target=boolean\ parry()
+numComments=5
