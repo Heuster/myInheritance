@@ -1,15 +1,15 @@
 #BlueJ class context
 comment0.target=Gun
-comment1.params=dmg\ rnge\ ammo\ magSize\ crit\ ammoType\ name\ accuracy
-comment1.target=Gun(int,\ int,\ int,\ int,\ int,\ double,\ java.lang.String,\ int)
+comment1.params=dmg\ rnge\ ammo\ magSize\ crit\ ammoType\ equip\ name
+comment1.target=Gun(int,\ int,\ int,\ int,\ int,\ double,\ boolean,\ java.lang.String)
 comment2.params=
 comment2.target=Gun()
 comment3.params=
 comment3.target=int\ attack()
 comment4.params=
-comment4.target=void\ bulletCount()
+comment4.target=void\ hitOrMiss()
 comment5.params=
-comment5.target=void\ hitOrMiss()
+comment5.target=void\ reload()
 comment6.params=
 comment6.target=boolean\ parry()
 numComments=7

@@ -1,11 +1,7 @@
 #BlueJ class context
 comment0.target=M4A1
-comment1.params=dmg\ rnge\ ammo\ crit\ magSize\ ammoType\ name\ accuracy
-comment1.target=M4A1(int,\ int,\ int,\ int,\ int,\ double,\ java.lang.String,\ int)
+comment1.params=dmg\ rnge\ ammo\ crit\ magSize\ ammoType\ equip\ name\ accuracy
+comment1.target=M4A1(int,\ int,\ int,\ int,\ int,\ double,\ boolean,\ java.lang.String,\ int)
 comment2.params=
 comment2.target=M4A1()
-comment3.params=
-comment3.target=int\ attack()
-comment4.params=
-comment4.target=boolean\ parry()
-numComments=5
+numComments=3

@@ -17,7 +17,6 @@ public abstract class Melee extends Weapons implements WeaponInterface
     }   
     
     public int attack(){
-        dmg += 15;
         return dmg;
     }
     

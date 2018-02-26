@@ -25,6 +25,8 @@ public abstract class Weapons extends Item
         return name;
     }
     
+    
+    
     public boolean parry(){
         double rand = (int) Math.random()*100;
         if (rand <= 50){

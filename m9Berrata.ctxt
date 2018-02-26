@@ -1,11 +1,7 @@
 #BlueJ class context
 comment0.target=m9Berrata
-comment1.params=dmg\ crit\ ammo\ rnge\ ammoType\ magSize\ name\ accuracy
-comment1.target=m9Berrata(int,\ int,\ int,\ int,\ double,\ int,\ java.lang.String,\ int)
+comment1.params=dmg\ crit\ ammo\ rnge\ ammoType\ equip\ magSize\ name
+comment1.target=m9Berrata(int,\ int,\ int,\ int,\ double,\ boolean,\ int,\ java.lang.String)
 comment2.params=
 comment2.target=m9Berrata()
-comment3.params=
-comment3.target=int\ attack()
-comment4.params=
-comment4.target=boolean\ parry()
-numComments=5
+numComments=3

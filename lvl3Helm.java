@@ -5,19 +5,22 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class level3Helm extends headArmor
+public class lvl3Helm extends headArmor
 {
-    public level3Helm (int durability, int type, String name){
-        super(durability, type, name);
+    public lvl3Helm (int durability, int type, boolean equip, String name){
+        super(durability, type, equip, name);
     }
-    public level3Helm(){
-        super(100,1,"Combat Helmet");
+    public lvl3Helm(){
+        super(100,1,false,"Tactical Helmet");
     }
     
+    public int reducedDmg(){
+        return durability;
+    }
     
     public void ruined (){
         if (durability == 0){
-            System.out.println("Your helmet is ruined, it won't take anymore damage");
+            System.out.println("Your " + name + " is ruined, it won't take anymore damage");
         }
     }
     

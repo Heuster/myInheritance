@@ -9,40 +9,50 @@ import java.lang.Math;
 public abstract class Gun extends Range
 {
     int magSize;
-    int accuracy;
     
-    public Gun (int dmg, int rnge, int ammo, int magSize, int crit, double ammoType, String name, int accuracy){
-        super(dmg,crit,rnge,ammo,ammoType,accuracy, name);
+    public Gun (int dmg, int rnge, int ammo, int magSize, int crit, double ammoType,boolean equip, String name){
+        super(dmg,crit,rnge,ammo,ammoType,false, name);
         this.magSize = magSize;
-        this.accuracy = accuracy;
+        
     }
     public Gun(){
-        this(10, 100, 90, 30, 50, 5.56, "Generic Gun", 75);
+        this(10, 100, 20, 30, 50, 5.56,false, "Generic Gun");
     }
     
     public int attack(){
         return dmg;
     }
     
-    public void bulletCount(){
-        System.out.println("Current ammo in magazine in " + name + ": " + magSize); 
-    }
-    
     public void hitOrMiss(){
        int hit = (int) (Math.random()*100 + 1);
        int crit = (int) (Math.random()*100 + 1);
-       //int accuracy = (int) Math.random()*100;
+       int accuracy = (int) (Math.random()*100 + 1);
        if (accuracy >= 50 && hit >= 50){
            System.out.println("You've hit the enemy");
            magSize -= 1;
-           
         } else {
            System.out.println("You've missed");
            magSize -= 1;
-           
         }   
     }
     
+    public void reload(){
+        if (magSize == 0){
+            ammo -= 30;
+            magSize = 0;
+            magSize += 30;
+            System.out.println("Reloading");
+            System.out.println("Ammo: " + ammo);
+            System.out.println("Ammo in magazine: " + magSize);
+        } else if (magSize != 0){
+            ammo -= magSize;
+            magSize = 0;
+            magSize += 30;
+            System.out.println("Reloading");
+            System.out.println("Ammo: " + ammo);
+            System.out.println("Ammo in magazine: " + magSize);
+        }
+    }
     
     public boolean parry(){
         double rand = (int) (Math.random()*10 + 1);

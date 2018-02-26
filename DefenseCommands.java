@@ -1,4 +1,5 @@
 
+
 /**
  * Commands used for all defensive items
  * 
@@ -15,4 +16,5 @@ public interface DefenseCommands
      */
     boolean blocked();
     
+    int reducedDmg();
 }

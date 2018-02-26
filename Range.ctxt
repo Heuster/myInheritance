@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Range
-comment1.params=dmg\ rnge\ ammo\ crit\ ammoType\ accuracy\ name
-comment1.target=Range(int,\ int,\ int,\ int,\ double,\ int,\ java.lang.String)
+comment1.params=dmg\ rnge\ ammo\ crit\ ammoType\ equip\ name
+comment1.target=Range(int,\ int,\ int,\ int,\ double,\ boolean,\ java.lang.String)
 comment2.params=
 comment2.target=void\ critHit()
 comment3.params=

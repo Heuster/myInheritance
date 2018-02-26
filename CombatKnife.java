@@ -11,9 +11,11 @@ public class CombatKnife extends Melee
     public CombatKnife (int dmg, int crit, String name){
         super(dmg,crit,name);
     }
+    public CombatKnife(){
+        super(10,5,"Combat Knife");
+    }
     
     public int attack(){
-        dmg += 15;
         return dmg;
     }
     
