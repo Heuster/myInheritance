@@ -14,7 +14,7 @@ public class lvl2Vest extends bodyArmor
         super(100,1,false,"Medium Armor Vest");
     }
     
-    public int reducedDmg(){
+    public int reducedDmg(){ //WORK IN PROGRESS METHOD
         return durability;
     }
     

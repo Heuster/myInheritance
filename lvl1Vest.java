@@ -14,7 +14,7 @@ public class lvl1Vest extends bodyArmor
         super(0,1,false,"Light Armor Vest");
     }
     
-    public int reducedDmg(){
+    public int reducedDmg(){ //WORK IN PROGRESS METHOD
         return durability;
     }
     

@@ -17,4 +17,9 @@ public abstract class Character
         this.name = name;
     }
     
+    public void death(){
+        if (hp == 0){
+            System.out.println("You have died");
+        }
+    }
 }

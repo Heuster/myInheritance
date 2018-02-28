@@ -14,11 +14,7 @@ public class Player extends Character
     public Player (int hp, int maxHp, String name){
         super(hp, maxHp, name);
     }
-    
-    
-    public void death(){
-        if (hp == 0){
-            System.out.println("You have died");
-        }
+    public Player(){
+        super(100,100,"Player");
     }
 }

@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=CombatKnife
-comment1.params=dmg\ crit\ name
-comment1.target=CombatKnife(int,\ int,\ java.lang.String)
+comment1.params=dmg\ crit\ name\ equip
+comment1.target=CombatKnife(int,\ int,\ java.lang.String,\ boolean)
 comment2.params=
 comment2.target=CombatKnife()
 comment3.params=

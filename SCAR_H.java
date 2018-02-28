@@ -13,7 +13,7 @@ public class SCAR_H extends Gun
       super(dmg, crit, rnge, ammo, magSize, ammoType, false, name);
     }
     public SCAR_H(){
-     super(35, 90, 30, 30, 50, 5.56, false, "SCAR-H");   
+     super(40, 120, 30, 30, 100, 7.62, false, "SCAR-H");   
     }
     
 }

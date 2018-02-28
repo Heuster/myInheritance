@@ -12,7 +12,7 @@ public class AK12 extends Gun
       super(dmg, crit, rnge, ammo, magSize, ammoType, false, name);
     }
     public AK12(){
-     super(40, 90, 40, 30, 50, 7.62, false, "AK12");   
+     super(40, 90, 40, 30, 100, 7.62, false, "AK12");   
     }
     
 }

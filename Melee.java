@@ -9,11 +9,13 @@ public abstract class Melee extends Weapons implements WeaponInterface
 {
     int dmg;
     int crit;
+    boolean equip;
     String name;
     
-    public Melee (int dmg, int crit, String name){
-        super(dmg,crit);
+    public Melee (int dmg, int crit, String name, boolean equip){
+        super(dmg,crit, name);
         this.name = name;
+        this.equip = equip;
     }   
     
     public int attack(){

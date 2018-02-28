@@ -15,12 +15,11 @@ public abstract class Range extends Weapons implements WeaponInterface
     String name;
     
     public Range(int dmg, int rnge, int ammo, int crit, double ammoType, boolean equip, String name){
-        super(dmg,crit);
+        super(dmg,crit,name);
         this.rnge = rnge;
         this.ammo = ammo;
         this.ammoType = ammoType;
         this.equip = equip;
-        this.name = name;
     }
     
     public void critHit(){

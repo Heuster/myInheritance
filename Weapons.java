@@ -10,10 +10,12 @@ public abstract class Weapons extends Item
 {
     int dmg;
     int crit;
+    String name;
     
-    public Weapons (int dmg, int crit){
+    public Weapons (int dmg, int crit, String name){
         this.dmg = dmg;
         this.crit = crit;
+        this.name = name;
     }
     
     public int attack(){

@@ -8,11 +8,11 @@
 import java.lang.Math;
 public class CombatKnife extends Melee 
 {
-    public CombatKnife (int dmg, int crit, String name){
-        super(dmg,crit,name);
+    public CombatKnife (int dmg, int crit, String name, boolean equip){
+        super(dmg,crit,name,equip);
     }
     public CombatKnife(){
-        super(10,5,"Combat Knife");
+        super(10,5,"Combat Knife",true);
     }
     
     public int attack(){

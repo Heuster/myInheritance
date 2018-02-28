@@ -14,7 +14,7 @@ public class lvl3Helm extends headArmor
         super(100,1,false,"Tactical Helmet");
     }
     
-    public int reducedDmg(){
+    public int reducedDmg(){ //WORK IN PROGRESS METHOD
         return durability;
     }
     

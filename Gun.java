@@ -11,21 +11,26 @@ public abstract class Gun extends Range
     int magSize;
     
     public Gun (int dmg, int rnge, int ammo, int magSize, int crit, double ammoType,boolean equip, String name){
-        super(dmg,crit,rnge,ammo,ammoType,false, name);
+        super(dmg,crit,rnge,ammo,ammoType,false,name);
         this.magSize = magSize;
-        
-    }
-    public Gun(){
-        this(10, 100, 20, 30, 50, 5.56,false, "Generic Gun");
     }
     
     public int attack(){
         return dmg;
     }
     
+    public void critHit(){
+        int critChance = (int)(Math.random()*100 + 1);
+        if (critChance <= crit){
+            int critDmg = (int)(Math.random()*4 + 2);
+            dmg = dmg * critDmg;
+            System.out.println(dmg);
+        }
+    }
+    
     public void hitOrMiss(){
        int hit = (int) (Math.random()*100 + 1);
-       int crit = (int) (Math.random()*100 + 1);
+       //int crit = (int) (Math.random()*100 + 1);
        int accuracy = (int) (Math.random()*100 + 1);
        if (accuracy >= 50 && hit >= 50){
            System.out.println("You've hit the enemy");
@@ -62,6 +67,14 @@ public abstract class Gun extends Range
         } else {
             return false;
         }
-        
     }
+    
+    public void addItem(){
+        if (equip = true){
+            Gun obj = new M416();  
+            Backpack pack = new Backpack();
+            pack.storeItem(obj);
+        }
+    }
+    
 }

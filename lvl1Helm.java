@@ -14,7 +14,7 @@ public class lvl1Helm extends headArmor
         super(100,1,false,"Military Helmet");
     }
     
-    public int reducedDmg(){
+    public int reducedDmg(){ //WORK IN PROGRESS METHOD
         return durability;
     }
     
