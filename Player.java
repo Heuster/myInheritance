@@ -11,10 +11,10 @@ public class Player extends Character
     //every weapon that is true is equipped
     //every weapon that is not true is no equipped
     
-    public Player (int hp, int maxHp, String name){
-        super(hp, maxHp, name);
+    public Player (int hp, int maxHp, String name, String gender){
+        super(hp, maxHp, name, gender);
     }
     public Player(){
-        super(100,100,"Player");
+        super(100,100,"Player","Male");
     }
 }

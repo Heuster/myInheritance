@@ -11,5 +11,4 @@ public abstract class bodyArmor extends Armor
         super(durability, type, equip, name);
     }
     
-    
 }

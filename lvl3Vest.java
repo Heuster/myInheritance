@@ -14,8 +14,10 @@ public class lvl3Vest extends bodyArmor
         super(100,1,false,"Heavy Armor Vest");
     }
     
-    public int reducedDmg(){ //WORK IN PROGRESS METHOD
-        return durability;
+    public void reducedDurability(){ //WORK IN PROGRESS METHOD        
+        if (blocked() == true){
+            durability -= 5;
+        }
     }
     
     public void ruined() {

@@ -10,16 +10,19 @@ public abstract class Character
     int hp;
     int maxHp;
     String name;
-
-    public Character(int hp, int maxHp, String name){
+    String gender;
+    public Character(int hp, int maxHp, String name, String gender){
         this.hp = hp;
         this.maxHp = maxHp;
         this.name = name;
+        this.gender = gender;
     }
     
     public void death(){
         if (hp == 0){
             System.out.println("You have died");
+        } else {
+            System.out.println("You're alive");
         }
     }
 }

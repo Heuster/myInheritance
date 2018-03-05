@@ -11,11 +11,13 @@ public class lvl1Vest extends bodyArmor
         super(durability, type, equip, name);
     }
     public lvl1Vest(){
-        super(0,1,false,"Light Armor Vest");
+        super(100,1,false,"Light Armor Vest");
     }
     
-    public int reducedDmg(){ //WORK IN PROGRESS METHOD
-        return durability;
+    public void reducedDurability(){ //WORK IN PROGRESS METHOD        
+        if (blocked() == true){
+            durability -= 5;
+        }
     }
     
     public void ruined() {
@@ -24,7 +26,6 @@ public class lvl1Vest extends bodyArmor
         }
     }
  
-    
     public boolean blocked(){
         int ricochet = (int) (Math.random()*100 + 1);
         if (ricochet < 50){

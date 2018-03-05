@@ -21,9 +21,10 @@ public abstract class Gun extends Range
     
     public void critHit(){
         int critChance = (int)(Math.random()*100 + 1);
+        int totalCrit = 0;
         if (critChance <= crit){
             int critDmg = (int)(Math.random()*4 + 2);
-            dmg = dmg * critDmg;
+            totalCrit = crit * critDmg;
             System.out.println(dmg);
         }
     }
@@ -71,7 +72,7 @@ public abstract class Gun extends Range
     
     public void addItem(){
         if (equip = true){
-            Gun obj = new M416();  
+            Gun obj = new AK12();  
             Backpack pack = new Backpack();
             pack.storeItem(obj);
         }
