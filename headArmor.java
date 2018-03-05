@@ -7,11 +7,11 @@
  */
 public abstract class headArmor extends Armor
 {
-    public headArmor(int durability, int type, boolean equip, String name){
-        super(durability, type, equip, name);
+    public headArmor(int durability, int type,int defense, boolean equip, String name){
+        super(durability, defense, type, equip, name);
     }
     public headArmor(){
-        super(100, 1, false,"Helmet");
+        super(100, 1,50, false,"Helmet");
     }
     
     public boolean blocked(){

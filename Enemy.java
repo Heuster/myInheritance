@@ -8,11 +8,11 @@
 public class Enemy extends Character
 
 {
-    public Enemy (int hp, int maxHp, String name, String gender){
-        super(hp, maxHp, name, gender);
+    public Enemy (int hp, int maxHp, int defense, String name, String gender){
+        super(hp, maxHp, defense, name, gender);
     }
     public Enemy (){
-        super(100,100,"Enemy", "Male");
+        super(100,100,0,"Enemy", "Male");
     }
     
     

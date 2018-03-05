@@ -9,11 +9,13 @@ public abstract class Character
 {
     int hp;
     int maxHp;
+    int defense;
     String name;
     String gender;
-    public Character(int hp, int maxHp, String name, String gender){
+    public Character(int hp, int maxHp, int defense, String name, String gender){
         this.hp = hp;
         this.maxHp = maxHp;
+        this.defense = defense;
         this.name = name;
         this.gender = gender;
     }
