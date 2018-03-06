@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=bodyArmor
 comment0.text=\r\n\ Abstract\ class\ bodyArmor\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
-comment1.params=durability\ type\ equip\ name
-comment1.target=bodyArmor(int,\ int,\ boolean,\ java.lang.String)
+comment1.params=durability\ type\ defense\ equip\ name
+comment1.target=bodyArmor(int,\ int,\ int,\ boolean,\ java.lang.String)
 numComments=2

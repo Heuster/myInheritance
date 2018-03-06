@@ -7,11 +7,11 @@
  */
 public class lvl3Vest extends bodyArmor
 {
-    public lvl3Vest(int durability,int type,boolean equip,String name){
-        super(durability, type, equip, name);
+    public lvl3Vest(int durability, int type, int defense, boolean equip, String name){
+        super(durability, type, defense, equip, name);
     }
     public lvl3Vest(){
-        super(100,1,false,"Heavy Armor Vest");
+        super(100,1,75,false,"Heavy Armor Vest");
     }
     
     public void reducedDurability(){ //WORK IN PROGRESS METHOD        
@@ -24,6 +24,7 @@ public class lvl3Vest extends bodyArmor
         if (durability == 0){
             System.out.println("Your " + name + " is ruined, it won't take anymore damage");
         }
+        defense = 0;
     }
  
     public boolean blocked(){

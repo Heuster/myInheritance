@@ -7,11 +7,11 @@
  */
 public class lvl1Helm extends headArmor
 {
-    public lvl1Helm (int durability, int type,boolean equip, String name){
-        super(durability, type,equip, name);
+    public lvl1Helm (int durability, int type, int defense, boolean equip, String name){
+        super(durability,type,defense,equip, name);
     }
     public lvl1Helm(){
-        super(100,1,false,"Military Helmet");
+        super(100,1,25,false,"Military Helmet");
     }
     
     public void reducedDurability(){ //WORK IN PROGRESS METHOD        

@@ -16,4 +16,5 @@ public interface DefenseCommands
      */
     boolean blocked();
     void reducedDurability();
+    void ruined();
 }

@@ -11,6 +11,7 @@ public abstract class Weapons extends Item
     int dmg;
     int crit;
     String name;
+    //ArrayList <Item> stats;
     
     public Weapons (int dmg, int crit, String name){
         this.dmg = dmg;

@@ -29,5 +29,4 @@ public class CombatKnife extends Melee
         }
     }
     
-    
 }
