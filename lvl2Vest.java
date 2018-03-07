@@ -35,4 +35,5 @@ public class lvl2Vest extends bodyArmor
             return false;
         }
     }
+    
 }

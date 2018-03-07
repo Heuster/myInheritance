@@ -34,4 +34,5 @@ public class lvl3Helm extends headArmor
             return false;
         }
     }
+    
 }

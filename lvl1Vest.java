@@ -23,7 +23,7 @@ public class lvl1Vest extends bodyArmor
     
     public void ruined() {
         if (durability == 0){
-            System.out.println("Your " + name + " is ruined, it won't take anymore damage");
+            System.out.println("Your " + name + " is ruined, it won't tank anymore damage");
         } 
         defense = 0;
     }

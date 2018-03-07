@@ -33,5 +33,5 @@ public class lvl1Helm extends headArmor
         } else {
             return false;
         }
-    }
+    }   
 }

@@ -10,6 +10,7 @@ public abstract class Gun extends Range
 {
     int magSize;
     boolean calcCrit = true;
+    int totalDmg = 0;
     
     public Gun (int dmg, int rnge, int ammo, int magSize, int crit, double ammoType,boolean equip, String name){
         super(dmg,crit,rnge,ammo,ammoType,false,name);
@@ -24,10 +25,13 @@ public abstract class Gun extends Range
         return calcCrit;
     }
     
+    public int dmgDealt(){
+        return totalDmg;
+    }
+    
     public void critHit(){
         int critChance = (int)(Math.random()*100 + 1);
         int totalCrit = 0;
-        int totalDmg = 0;
         if (mathCrit() == true){
             if (critChance <= crit){
                 int critDmg = (int)(Math.random()*4 + 2);
@@ -43,6 +47,7 @@ public abstract class Gun extends Range
        int accuracy = (int) (Math.random()*100 + 1);
        if (accuracy >= 50 && hit >= 50){
            System.out.println("You've hit the enemy");
+           System.out.println("Damage Dealt: " + dmgDealt());
            magSize -= 1;
            calcCrit = true;
         } else {

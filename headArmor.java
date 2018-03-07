@@ -22,4 +22,12 @@ public abstract class headArmor extends Armor
             return false;
         }
     }
+    
+    public void addItem(){
+        if (equip = true){
+            headArmor obj = new lvl1Helm();  
+            Backpack pack = new Backpack();
+            pack.storeItem(obj);
+        }
+    }
 }

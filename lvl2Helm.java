@@ -26,7 +26,6 @@ public class lvl2Helm extends headArmor
         }
     }
  
-
     public boolean blocked(){
         int ricochet = (int) (Math.random()*100 + 1);
         if (ricochet < 50){
@@ -35,4 +34,5 @@ public class lvl2Helm extends headArmor
             return false;
         }
     }
+    
 }

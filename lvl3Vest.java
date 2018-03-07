@@ -29,10 +29,11 @@ public class lvl3Vest extends bodyArmor
  
     public boolean blocked(){
         int ricochet = (int) (Math.random()*100 + 1);
-        if (ricochet < 50){
+        if (ricochet > 50){
             return true;
         } else {
             return false;
         }
     }
+    
 }

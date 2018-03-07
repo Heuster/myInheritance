@@ -12,6 +12,7 @@ public abstract class Character
     int defense;
     String name;
     String gender;
+    
     public Character(int hp, int maxHp, int defense, String name, String gender){
         this.hp = hp;
         this.maxHp = maxHp;

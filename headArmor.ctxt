@@ -7,4 +7,6 @@ comment2.params=
 comment2.target=headArmor()
 comment3.params=
 comment3.target=boolean\ blocked()
-numComments=4
+comment4.params=
+comment4.target=void\ addItem()
+numComments=5
