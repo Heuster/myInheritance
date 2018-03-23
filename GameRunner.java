@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class GameRunner
 {
     Scanner sc = new Scanner(System.in);
-    Player P1 = new Player((int) hp, (int) maxHp, (int) defense, (String) name, (String) gender);
+    //Player P1 = new Player();
     
     public GameRunner(){
             

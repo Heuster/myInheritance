@@ -12,7 +12,7 @@ public class M4A1 extends Gun
       super(dmg, crit, rnge, ammo, magSize, ammoType, true, name);
     }
     public M4A1(){
-     super(30, 120, 20, 30, 100, 5.56, true, "M4A1");   
+     super(30, 120, 100, 30, 100, 5.56, true, "M4A1");   
     }
     
 }

@@ -29,6 +29,7 @@ public abstract class Range extends Weapons implements WeaponInterface
             dmg = dmg * critDmg;
             System.out.println(dmg);
         }
+        
     }
     
     public int attack(){
