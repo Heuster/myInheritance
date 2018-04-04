@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GALIL_ACE
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GALIL_ACE\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=dmg\ rnge\ ammo\ crit\ magSize\ ammoType\ equip\ name
+comment1.target=GALIL_ACE(int,\ int,\ int,\ int,\ int,\ double,\ boolean,\ java.lang.String)
+comment2.params=
+comment2.target=GALIL_ACE()
+numComments=3

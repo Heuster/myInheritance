@@ -20,5 +20,4 @@ public interface WeaponInterface
      * @return        True if the attack was parried. 
      */
     boolean parry();
-
 }

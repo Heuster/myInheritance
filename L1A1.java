@@ -11,6 +11,6 @@ public class L1A1 extends Gun
         super(dmg, crit, rnge, ammo, magSize, ammoType, false, name);
     }
     public L1A1(){
-        super(35, 120, 30, 30,100, 7.62, false, "L1A1");
+        super(35, 120, 30, 30, 100, 7.62, false, "L1A1");
     }
 }

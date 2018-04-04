@@ -11,6 +11,6 @@ public class FN_FAL extends Gun
         super(dmg, crit, rnge, ammo, magSize, ammoType, false, name);
     }
     public FN_FAL(){
-        super(35, 120, 30, 30,100, 7.62, false, "FN-FAL");
+        super(40, 120, 30, 30,100, 7.62, false, "FN-FAL");
     }
 }

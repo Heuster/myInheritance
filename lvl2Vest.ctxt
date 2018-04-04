@@ -1,12 +1,12 @@
 #BlueJ class context
 comment0.target=lvl2Vest
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ lvl2Vest\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=durability\ type\ equip\ name
-comment1.target=lvl2Vest(int,\ int,\ boolean,\ java.lang.String)
+comment1.params=durability\ type\ defense\ equip\ name
+comment1.target=lvl2Vest(int,\ int,\ int,\ boolean,\ java.lang.String)
 comment2.params=
 comment2.target=lvl2Vest()
 comment3.params=
-comment3.target=int\ reducedDmg()
+comment3.target=void\ reducedDurability()
 comment4.params=
 comment4.target=void\ ruined()
 comment5.params=
